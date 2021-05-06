@@ -29,7 +29,6 @@ export class UserController {
             }
         }
         catch (error) {
-            console.log(error);
             return res.status(Constants.INTERNAL_SERVER_ERROR_CODE).json({ error: req.t("ERR_INTERNAL_SERVER") })
         }
     }

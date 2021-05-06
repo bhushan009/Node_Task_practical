@@ -7,5 +7,12 @@
   "EMAIL_INVALID": "Please enter valid email",
   "PASSWORD_WARNING": "Password should be atleast 8 characters with minimum one uppercase and lowercase character and also include any special character [@_!$*#%]",
   "ERR_EMAIL_ALREADY_EXISTS": "User with email is already exists.",
-  "REGISTER_DONE": "Register Successfully."
+  "REGISTER_DONE": "Register Successfully.",
+  "OFFICE_ADDRESS_ADDED": "Office Address Added Successfully.",
+  "OFFICE_ADDRESS_UPDATED": "Office Address Updated Successfully.",
+  "ADDRESS_NOT_EXISTS": "Address is not exists.",
+  "OFFICE_ADDRESS_DELETED": "Office Address Deleted Successfully.",
+  "HOME_ADDRESS_ADDED": "Home Address Added Successfully.",
+  "HOME_ADDRESS_UPDATED": "Home Address Updated Successfully.",
+  "HOME_ADDRESS_DELETED": "Home Address Deleted Successfully."
 }
