@@ -1,6 +1,5 @@
 import moment = require("moment");
 import { Constants } from "../config/constants";
-import * as json2xls from "json2xls";
 import * as fs from "fs";
 
 export class Utils {
@@ -28,11 +27,6 @@ export class Utils {
     }
     public static getStandardDateFormatWithAddedMinutes = (value: number) => {
         return moment().add(value, "minutes").format(Constants.DATE_TIME_FORMAT)
-    }
-
-    public static JsonToExcel = (user, dateTime: string) => {
-        var xls = json2xls(user);
-        return fs.writeFileSync(`${dateTime}-data.xlsx`, xls, 'binary');
     }
 
     public static CurrentDate = () => {

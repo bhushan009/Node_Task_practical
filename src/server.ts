@@ -6,8 +6,6 @@ require("express-async-errors");
 import * as helmet from "helmet"; // Security
 import * as l10n from "jm-ez-l10n";
 import * as morgan from "morgan"; // log requests to the console (express4)
-import * as fileUpload from "express-fileupload";
-import * as busboy  from 'connect-busboy';
 
 import { Log } from "./helpers/logger";
 import { Routes } from "./routes";
@@ -40,10 +38,6 @@ export class Server {
       }
     });
     l10n.setTranslationsFile("en", `src/language/lang.en.json`);
-    this.app.use(busboy({ immediate: true }));
-    this.app.use(fileUpload({
-      parseNested: true,
-    }));
     this.app.use(l10n.enableL10NExpress);
     this.app.use(morgan("dev"));
     this.app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-form-urlencoded
