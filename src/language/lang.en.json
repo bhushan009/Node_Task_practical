@@ -1,0 +1,11 @@
+{
+  "ERR_INTERNAL_SERVER": "Internal Server Error.",
+  "ERR_URL_NOT_FOUND": "Requested URL not found!",
+  "ERR_UNAUTH": "You are unauthorized.",
+  "ERR_GENRIC_SYNTAX": "JSON request could not be parsed.",
+  "INVALID_CREDENTIALS": "Invalid credentials.",
+  "EMAIL_INVALID": "Please enter valid email",
+  "PASSWORD_WARNING": "Password should be atleast 8 characters with minimum one uppercase and lowercase character and also include any special character [@_!$*#%]",
+  "ERR_EMAIL_ALREADY_EXISTS": "User with email is already exists.",
+  "REGISTER_DONE": "Register Successfully."
+}
