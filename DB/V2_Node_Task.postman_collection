@@ -1,0 +1,363 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Node_Task",
+		"_postman_id": "9569a819-cc5b-caf8-72f8-836c427a2873",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Office Address",
+			"description": "",
+			"item": [
+				{
+					"name": "Add office address",
+					"request": {
+						"url": "http://localhost:3000/api/office/add",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Address1",
+									"value": "ABC",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "Address2",
+									"value": "PQR",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "CityId",
+									"value": "1",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "PostalCode",
+									"value": "364001",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "Phone",
+									"value": "9876543210",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "list of office address",
+					"request": {
+						"url": "http://localhost:3000/api/office/list",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Update office address",
+					"request": {
+						"url": "http://localhost:3000/api/office/update/1",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Address1",
+									"value": "xyz",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Address2",
+									"value": "ambawadi",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "CityId",
+									"value": "1",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "PostalCode",
+									"value": "364001",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Phone",
+									"value": "9876543210",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "delete office address",
+					"request": {
+						"url": "http://localhost:3000/api/office/delete/2",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Home Address",
+			"description": "",
+			"item": [
+				{
+					"name": "Add home address",
+					"request": {
+						"url": "http://localhost:3000/api/home/add",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Address1",
+									"value": "ABC",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "Address2",
+									"value": "PQR",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "CityId",
+									"value": "1",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "PostalCode",
+									"value": "364001",
+									"description": "",
+									"type": "text"
+								},
+								{
+									"key": "Phone",
+									"value": "9876543210",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "list of home address",
+					"request": {
+						"url": "http://localhost:3000/api/home/list",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Update home address",
+					"request": {
+						"url": "http://localhost:3000/api/home/update/1",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Address1",
+									"value": "xyz",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Address2",
+									"value": "ambawadi",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "CityId",
+									"value": "1",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "PostalCode",
+									"value": "364001",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Phone",
+									"value": "9876543210",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "delete home address",
+					"request": {
+						"url": "http://localhost:3000/api/home/delete/2",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sign-up",
+			"request": {
+				"url": "http://localhost:3000/api/user/sign-up",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "FirstName",
+							"value": "Bhushan",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "LastName",
+							"value": "Vasa",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Email",
+							"value": "bhushanvasa1416@gmail.com",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "Password",
+							"value": "Bhushan@009",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "sign-in",
+			"request": {
+				"url": "http://localhost:3000/api/user/sign-in",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Email",
+							"value": "bhushanvasa1416@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Password",
+							"value": "Bhushan@009",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
